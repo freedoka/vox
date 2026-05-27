@@ -19,7 +19,7 @@
         "/autor/",
         "/tag/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -41,7 +41,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -62,7 +62,7 @@
         "/autor/",
         "/tag/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -83,7 +83,7 @@
         "/foto/",
         "/video/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -105,7 +105,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -127,7 +127,7 @@
         "/author/",
         "/actualitate-s3"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -149,7 +149,7 @@
         "/author/",
         "/actualitate"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -171,7 +171,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -194,7 +194,7 @@
         "/author/",
         "/politic/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -216,7 +216,7 @@
         "/autor/",
         "/tag/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -237,7 +237,7 @@
         "/video/",
         "/live/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -259,7 +259,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -280,7 +280,7 @@
         "/categorii/",
         "/video/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -302,7 +302,7 @@
         "/author/",
         "/politica"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -324,7 +324,7 @@
         "/author/",
         "/hotnews"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -347,7 +347,7 @@
         "/author/",
         "/politica/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -370,7 +370,7 @@
         "/author/",
         "/stiri-administratie-politica/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -392,7 +392,7 @@
         "/tag/",
         "/autor/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -414,7 +414,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -435,7 +435,7 @@
         "/tag/",
         "/autor/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -457,7 +457,7 @@
         "/tag/",
         "/autor/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -480,7 +480,7 @@
         "/autor/",
         "/tag/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -502,7 +502,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -523,7 +523,7 @@
         "/video/",
         "/galerie-foto/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -545,7 +545,7 @@
         "/tag/",
         "/author/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -565,7 +565,7 @@
         "?p=",
         "/politic-intern/?"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -587,7 +587,7 @@
         "/author/",
         "/politica"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -609,7 +609,7 @@
         "/author/",
         "/politica/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -631,7 +631,7 @@
         "/tag/",
         "/autor/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -653,7 +653,7 @@
         "/tag/",
         "/autor/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
@@ -676,7 +676,7 @@
         "/author/",
         "/politic/"
       ],
-      "days_back": 1,
+      "days_back": 0,
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
