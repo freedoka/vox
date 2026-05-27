@@ -1,1 +1,685 @@
-
+{
+  "version": 1,
+  "description": "Romanian political news source list for VoxPolitica link collectors",
+  "default_days_back": 1,
+  "sources": [
+    {
+      "enabled": true,
+      "name": "Adevarul - Politica",
+      "source_id": "adevarul_politica",
+      "category_url": "https://adevarul.ro/politica",
+      "domain": "adevarul.ro",
+      "base_url": "https://adevarul.ro",
+      "article_url_prefixes": [
+        "https://adevarul.ro/politica/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/autor/",
+        "/tag/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "7 Iasi - Ultima ora",
+      "source_id": "7iasi_ultima_ora",
+      "category_url": "https://www.7iasi.ro/category/ultima-ora/",
+      "domain": "7iasi.ro",
+      "base_url": "https://www.7iasi.ro",
+      "article_url_prefixes": [
+        "https://www.7iasi.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "ActiveNews - Politic",
+      "source_id": "activenews_politic",
+      "category_url": "https://www.activenews.ro/stiri-politic",
+      "domain": "activenews.ro",
+      "base_url": "https://www.activenews.ro",
+      "article_url_prefixes": [
+        "https://www.activenews.ro/stiri-politic/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/autor/",
+        "/tag/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Agerpres - Politic",
+      "source_id": "agerpres_politic",
+      "category_url": "https://agerpres.ro/politic",
+      "domain": "agerpres.ro",
+      "base_url": "https://agerpres.ro",
+      "article_url_prefixes": [
+        "https://agerpres.ro/politic/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/foto/",
+        "/video/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Buletin de Timisoara - Politica",
+      "source_id": "buletin_de_timisoara_politica",
+      "category_url": "https://buletindetimisoara.ro/categorie/politica/",
+      "domain": "buletindetimisoara.ro",
+      "base_url": "https://buletindetimisoara.ro",
+      "article_url_prefixes": [
+        "https://buletindetimisoara.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/categorie/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "BZI - Actualitate",
+      "source_id": "bzi_actualitate",
+      "category_url": "https://www.bzi.ro/actualitate-s3",
+      "domain": "bzi.ro",
+      "base_url": "https://www.bzi.ro",
+      "article_url_prefixes": [
+        "https://www.bzi.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/actualitate-s3"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Capital - Actualitate",
+      "source_id": "capital_actualitate",
+      "category_url": "https://www.capital.ro/actualitate",
+      "domain": "capital.ro",
+      "base_url": "https://www.capital.ro",
+      "article_url_prefixes": [
+        "https://www.capital.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/actualitate"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Calea Europeana - Politica",
+      "source_id": "calea_europeana_politica",
+      "category_url": "https://www.caleaeuropeana.ro/category/romania/politica/",
+      "domain": "caleaeuropeana.ro",
+      "base_url": "https://www.caleaeuropeana.ro",
+      "article_url_prefixes": [
+        "https://www.caleaeuropeana.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Curentul - Politic",
+      "source_id": "curentul_politic",
+      "category_url": "https://www.curentul.info/politic/",
+      "domain": "curentul.info",
+      "base_url": "https://www.curentul.info",
+      "article_url_prefixes": [
+        "https://www.curentul.info/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/politic/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "DCNews - Politica",
+      "source_id": "dcnews_politica",
+      "category_url": "https://www.dcnews.ro/politica",
+      "domain": "dcnews.ro",
+      "base_url": "https://www.dcnews.ro",
+      "article_url_prefixes": [
+        "https://www.dcnews.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/politica",
+        "/autor/",
+        "/tag/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Digi24 - Politica",
+      "source_id": "digi24_politica",
+      "category_url": "https://www.digi24.ro/stiri/actualitate/politica",
+      "domain": "digi24.ro",
+      "base_url": "https://www.digi24.ro",
+      "article_url_prefixes": [
+        "https://www.digi24.ro/stiri/actualitate/politica/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/video/",
+        "/live/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Ecopolitic - Politic",
+      "source_id": "ecopolitic_politic",
+      "category_url": "https://ecopolitic.ro/category/politic/",
+      "domain": "ecopolitic.ro",
+      "base_url": "https://ecopolitic.ro",
+      "article_url_prefixes": [
+        "https://ecopolitic.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Euronews Romania - Politic",
+      "source_id": "euronews_ro_politic",
+      "category_url": "https://www.euronews.ro/categorii/romania/politic",
+      "domain": "euronews.ro",
+      "base_url": "https://www.euronews.ro",
+      "article_url_prefixes": [
+        "https://www.euronews.ro/articole/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/categorii/",
+        "/video/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "EVZ - Politica",
+      "source_id": "evz_politica",
+      "category_url": "https://evz.ro/politica",
+      "domain": "evz.ro",
+      "base_url": "https://evz.ro",
+      "article_url_prefixes": [
+        "https://evz.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/politica"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Fanatik - Hotnews",
+      "source_id": "fanatik_hotnews",
+      "category_url": "https://www.fanatik.ro/hotnews",
+      "domain": "fanatik.ro",
+      "base_url": "https://www.fanatik.ro",
+      "article_url_prefixes": [
+        "https://www.fanatik.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/hotnews"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "FocusPress - Politica",
+      "source_id": "focuspress_politica",
+      "category_url": "https://focuspress.ro/politica/",
+      "domain": "focuspress.ro",
+      "base_url": "https://focuspress.ro",
+      "article_url_prefixes": [
+        "https://focuspress.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/politica/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Fresh24 - Administratie Politica",
+      "source_id": "fresh24_administratie_politica",
+      "category_url": "https://fresh24.ro/stiri-administratie-politica/",
+      "domain": "fresh24.ro",
+      "base_url": "https://fresh24.ro",
+      "article_url_prefixes": [
+        "https://fresh24.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/stiri-administratie-politica/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Gandul - Politica",
+      "source_id": "gandul_politica",
+      "category_url": "https://www.gandul.ro/politica",
+      "domain": "gandul.ro",
+      "base_url": "https://www.gandul.ro",
+      "article_url_prefixes": [
+        "https://www.gandul.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/politica",
+        "/tag/",
+        "/autor/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "HotNews - Politic",
+      "source_id": "hotnews_politic",
+      "category_url": "https://hotnews.ro/c/actualitate/politic",
+      "domain": "hotnews.ro",
+      "base_url": "https://hotnews.ro",
+      "article_url_prefixes": [
+        "https://hotnews.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/c/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Jurnalul - Stiri",
+      "source_id": "jurnalul_stiri",
+      "category_url": "https://jurnalul.ro/stiri/",
+      "domain": "jurnalul.ro",
+      "base_url": "https://jurnalul.ro",
+      "article_url_prefixes": [
+        "https://jurnalul.ro/stiri/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/autor/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Libertatea - Politica",
+      "source_id": "libertatea_politica",
+      "category_url": "https://www.libertatea.ro/politica",
+      "domain": "libertatea.ro",
+      "base_url": "https://www.libertatea.ro",
+      "article_url_prefixes": [
+        "https://www.libertatea.ro/stiri/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/politica",
+        "/tag/",
+        "/autor/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Mediafax - Home",
+      "source_id": "mediafax_home",
+      "category_url": "https://www.mediafax.ro/",
+      "domain": "mediafax.ro",
+      "base_url": "https://www.mediafax.ro",
+      "article_url_prefixes": [
+        "https://www.mediafax.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/foto/",
+        "/video/",
+        "/autor/",
+        "/tag/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "MediaFlux - Home",
+      "source_id": "mediaflux_home",
+      "category_url": "https://mediaflux.ro/",
+      "domain": "mediaflux.ro",
+      "base_url": "https://mediaflux.ro",
+      "article_url_prefixes": [
+        "https://mediaflux.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "ObservatorNews - Politic",
+      "source_id": "observatornews_politic",
+      "category_url": "https://observatornews.ro/politic/",
+      "domain": "observatornews.ro",
+      "base_url": "https://observatornews.ro",
+      "article_url_prefixes": [
+        "https://observatornews.ro/politic/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/video/",
+        "/galerie-foto/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "PSNews - Politica",
+      "source_id": "psnews_politica",
+      "category_url": "https://psnews.ro/category/politica/",
+      "domain": "psnews.ro",
+      "base_url": "https://psnews.ro",
+      "article_url_prefixes": [
+        "https://psnews.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "News.ro - Politic intern",
+      "source_id": "news_ro_politic_intern",
+      "category_url": "https://www.news.ro/politic-intern/",
+      "domain": "news.ro",
+      "base_url": "https://www.news.ro",
+      "article_url_prefixes": [
+        "https://www.news.ro/politic-intern/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?p=",
+        "/politic-intern/?"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Oficiul de Stiri - Politica",
+      "source_id": "oficiul_de_stiri_politica",
+      "category_url": "https://oficiuldestiri.ro/politica",
+      "domain": "oficiuldestiri.ro",
+      "base_url": "https://oficiuldestiri.ro",
+      "article_url_prefixes": [
+        "https://oficiuldestiri.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/politica"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Puterea - Politica",
+      "source_id": "puterea_politica",
+      "category_url": "https://www.puterea.ro/politica/",
+      "domain": "puterea.ro",
+      "base_url": "https://www.puterea.ro",
+      "article_url_prefixes": [
+        "https://www.puterea.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/tag/",
+        "/author/",
+        "/politica/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Stiripesurse - Politica",
+      "source_id": "stiripesurse_politica",
+      "category_url": "https://www.stiripesurse.ro/politica",
+      "domain": "stiripesurse.ro",
+      "base_url": "https://www.stiripesurse.ro",
+      "article_url_prefixes": [
+        "https://www.stiripesurse.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/politica",
+        "/tag/",
+        "/autor/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Ziare.com - Politic",
+      "source_id": "ziare_politic",
+      "category_url": "https://ziare.com/politic/",
+      "domain": "ziare.com",
+      "base_url": "https://ziare.com",
+      "article_url_prefixes": [
+        "https://ziare.com/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/politic/",
+        "/tag/",
+        "/autor/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Ziarul Amprenta - Politic",
+      "source_id": "ziarul_amprenta_politic",
+      "category_url": "https://ziarulamprenta.ro/politic/",
+      "domain": "ziarulamprenta.ro",
+      "base_url": "https://ziarulamprenta.ro",
+      "article_url_prefixes": [
+        "https://ziarulamprenta.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/politic/"
+      ],
+      "days_back": 1,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    }
+  ]
+}
