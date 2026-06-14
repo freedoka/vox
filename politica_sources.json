@@ -680,6 +680,28 @@
       "date_mode": "article_page",
       "collector_type": "generic_links",
       "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
+      "name": "Stiri de Cluj - Politic",
+      "source_id": "stiri_de_cluj_politic",
+      "category_url": "https://www.stiridecluj.ro/politic",
+      "domain": "stiridecluj.ro",
+      "base_url": "https://stiridecluj.ro",
+      "article_url_prefixes": [
+        "https://stiridecluj.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 0,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
     }
   ]
 }
