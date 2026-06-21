@@ -20,7 +20,9 @@
           "/autor/",
           "/video/",
           "/live/",
-          "/stiri/politica"
+          "/foto/",
+          "/galerie/",
+          "/search"
         ],
         "days_back": 0,
         "date_mode": "article_page",
