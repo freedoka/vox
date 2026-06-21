@@ -11,7 +11,7 @@
         "domain": "realitatea.net",
         "base_url": "https://www.realitatea.net",
         "article_url_prefixes": [
-          "https://www.realitatea.net/stiri/"
+          "https://www.realitatea.net/stiri/politica"
         ],
         "exclude_url_contains": [
           "#",
