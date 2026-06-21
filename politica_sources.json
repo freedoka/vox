@@ -3,6 +3,30 @@
   "description": "Romanian political news source list for VoxPolitica link collectors",
   "default_days_back": 1,
   "sources": [
+      {
+        "enabled": true,
+        "name": "Realitatea - Politica",
+        "source_id": "realitatea_politica",
+        "category_url": "https://www.realitatea.net/stiri/politica",
+        "domain": "realitatea.net",
+        "base_url": "https://www.realitatea.net",
+        "article_url_prefixes": [
+          "https://www.realitatea.net/stiri/"
+        ],
+        "exclude_url_contains": [
+          "#",
+          "?",
+          "/tag/",
+          "/autor/",
+          "/video/",
+          "/live/",
+          "/stiri/politica"
+        ],
+        "days_back": 0,
+        "date_mode": "article_page",
+        "collector_type": "generic_links",
+        "author_detection": "title_taxonomy"
+    },
     {
       "enabled": true,
       "name": "Adevarul - Politica",
