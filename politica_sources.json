@@ -15,14 +15,10 @@
         ],
         "exclude_url_contains": [
           "#",
-          "?",
           "/tag/",
           "/autor/",
-          "/video/",
-          "/live/",
-          "/foto/",
-          "/galerie/",
-          "/search"
+          "/search",
+          "/video/"
         ],
         "days_back": 0,
         "date_mode": "article_page",
