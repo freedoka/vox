@@ -27,6 +27,28 @@
     },
     {
       "enabled": true,
+      "name": "Calea Europeana - Politica",
+      "source_id": "calea_europeana_politica",
+      "category_url": "https://www.caleaeuropeana.ro/category/romania/politica/",
+      "domain": "caleaeuropeana.ro",
+      "base_url": "https://www.caleaeuropeana.ro",
+      "article_url_prefixes": [
+        "https://www.caleaeuropeana.ro/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/"
+      ],
+      "days_back": 0,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
+    {
+      "enabled": true,
       "name": "Adevarul - Politica",
       "source_id": "adevarul_politica",
       "category_url": "https://adevarul.ro/politica",
@@ -170,28 +192,6 @@
         "/tag/",
         "/author/",
         "/actualitate"
-      ],
-      "days_back": 0,
-      "date_mode": "article_page",
-      "collector_type": "generic_links",
-      "author_detection": "title_taxonomy"
-    },
-    {
-      "enabled": true,
-      "name": "Calea Europeana - Politica",
-      "source_id": "calea_europeana_politica",
-      "category_url": "https://www.caleaeuropeana.ro/category/romania/politica/",
-      "domain": "caleaeuropeana.ro",
-      "base_url": "https://www.caleaeuropeana.ro",
-      "article_url_prefixes": [
-        "https://www.caleaeuropeana.ro/"
-      ],
-      "exclude_url_contains": [
-        "#",
-        "?",
-        "/category/",
-        "/tag/",
-        "/author/"
       ],
       "days_back": 0,
       "date_mode": "article_page",
