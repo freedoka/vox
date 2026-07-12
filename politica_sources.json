@@ -23,7 +23,7 @@
         "date_mode": "article_page",
         "collector_type": "generic_links",
         "author_detection": "title_taxonomy"
-      }
+      },
       {
         "enabled": true,
         "name": "Realitatea - Politica",
