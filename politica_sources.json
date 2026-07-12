@@ -5,6 +5,27 @@
   "sources": [
       {
         "enabled": true,
+        "name": "Monitorul de Galați",
+        "source_id": "monitorul_de_galati",
+        "category_url": "https://www.monitoruldegalati.ro/category/politica",
+        "domain": "monitoruldegalati.ro",
+        "base_url": "https://www.monitoruldegalati.ro",
+        "article_url_prefixes": [
+            "https://www.monitoruldegalati.ro/politica/"
+        ],
+        "exclude_url_contains": [
+            "/category/",
+            "/tag/",
+            "/author/",
+            "/page/"
+        ],
+        "days_back": 0,
+        "date_mode": "article_page",
+        "collector_type": "generic_links",
+        "author_detection": "title_taxonomy"
+      }
+      {
+        "enabled": true,
         "name": "Realitatea - Politica",
         "source_id": "realitatea_politica",
         "category_url": "https://www.realitatea.net/stiri/politica",
