@@ -3,6 +3,27 @@
   "description": "Romanian political news source list for VoxPolitica link collectors",
   "default_days_back": 1,
   "sources": [
+     {
+          "enabled": true,
+          "name": "R3Media - Actualitate",
+          "source_id": "r3media_actualitate",
+          "category_url": "https://r3media.ro/category/actualitate/",
+          "domain": "r3media.ro",
+          "base_url": "https://r3media.ro",
+          "article_url_prefixes": [
+              "https://r3media.ro/"
+          ],
+          "exclude_url_contains": [
+              "/category/actualitate/page/",
+              "/tag/",
+              "/author/",
+              "/page/"
+          ],
+          "days_back": 0,
+          "date_mode": "article_page",
+          "collector_type": "generic_links",
+          "author_detection": "title_taxonomy"
+      },
       {
           "enabled": true,
           "name": "Cotidianul - Politică",
