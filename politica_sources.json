@@ -4,6 +4,28 @@
   "default_days_back": 1,
   "sources": [
       {
+          "enabled": true,
+          "name": "Cotidianul - Politică",
+          "source_id": "cotidianul_politica",
+          "category_url": "https://www.cotidianul.ro/articole/politica/",
+          "domain": "cotidianul.ro",
+          "base_url": "https://www.cotidianul.ro",
+          "article_url_prefixes": [
+              "https://www.cotidianul.ro/"
+          ],
+          "exclude_url_contains": [
+              "/articole/politica/page/",
+              "/articole/",
+              "/tag/",
+              "/author/",
+              "/page/"
+          ],
+          "days_back": 0,
+          "date_mode": "article_page",
+          "collector_type": "generic_links",
+          "author_detection": "title_taxonomy"
+      },
+      {
         "enabled": true,
         "name": "Monitorul de Galați",
         "source_id": "monitorul_de_galati",
