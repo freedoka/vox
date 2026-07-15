@@ -15,7 +15,6 @@
           ],
           "exclude_url_contains": [
               "/articole/politica/page/",
-              "/articole/",
               "/tag/",
               "/author/",
               "/page/"
