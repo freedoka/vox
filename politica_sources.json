@@ -3,6 +3,29 @@
   "description": "Romanian political news source list for VoxPolitica link collectors",
   "default_days_back": 1,
   "sources": [
+    {
+      "enabled": true,
+      "name": "Curentul - Politic",
+      "source_id": "curentul_politic",
+      "category_url": "https://www.curentul.info/politic/",
+      "domain": "curentul.info",
+      "base_url": "https://www.curentul.info",
+      "article_url_prefixes": [
+        "https://www.curentul.info/"
+      ],
+      "exclude_url_contains": [
+        "#",
+        "?",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/politic/"
+      ],
+      "days_back": 0,
+      "date_mode": "article_page",
+      "collector_type": "generic_links",
+      "author_detection": "title_taxonomy"
+    },
      {
           "enabled": true,
           "name": "R3Media - Actualitate",
@@ -255,29 +278,6 @@
         "/tag/",
         "/author/",
         "/actualitate"
-      ],
-      "days_back": 0,
-      "date_mode": "article_page",
-      "collector_type": "generic_links",
-      "author_detection": "title_taxonomy"
-    },
-    {
-      "enabled": true,
-      "name": "Curentul - Politic",
-      "source_id": "curentul_politic",
-      "category_url": "https://www.curentul.info/politic/",
-      "domain": "curentul.info",
-      "base_url": "https://www.curentul.info",
-      "article_url_prefixes": [
-        "https://www.curentul.info/"
-      ],
-      "exclude_url_contains": [
-        "#",
-        "?",
-        "/category/",
-        "/tag/",
-        "/author/",
-        "/politic/"
       ],
       "days_back": 0,
       "date_mode": "article_page",
